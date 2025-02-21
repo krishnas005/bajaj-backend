@@ -3,9 +3,12 @@ const { handlePostRequest, handleGetRequest } = require("../controllers/bfhlCont
 
 const router = express.Router();
 
-// Root route for testing
+// Root route with message and operation code
 router.get("/", (req, res) => {
-  res.status(200).json({ message: "Welcome to the Bajaj Finserv Health API!" });
+  res.status(200).json({
+    message: "Welcome to the Bajaj Finserv Health API! Use the /bfhl route for POST requests.",
+    operation_code: 1,
+  });
 });
 
 // Existing routes
