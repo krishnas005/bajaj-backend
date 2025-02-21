@@ -17,9 +17,9 @@ const handlePostRequest = (req, res) => {
     // Prepare response
     const response = {
       is_success: true,
-      user_id: "john_doe_10102023", // Replace with dynamic logic if needed
-      email: "john.doe@example.com",
-      roll_number: "123456",
+      user_id: "krishnas05", // Replace with dynamic logic if needed
+      email: "22BCS11885@cuchd.in",
+      roll_number: "22BCS11885",
       numbers,
       alphabets,
       highest_alphabet: highestAlphabet,
