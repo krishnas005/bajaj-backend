@@ -14,5 +14,6 @@ router.get("/", (req, res) => {
 // Existing routes
 router.post("/bfhl", handlePostRequest);
 router.get("/bfhl", handleGetRequest);
+router.post("/", handlePostRequest);
 
 module.exports = router;
